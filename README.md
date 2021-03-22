@@ -1,3 +1,3 @@
-# Fitness-CLub-Website
+# Fitness-Club-Website
 
 A Fitness Club Website Template
