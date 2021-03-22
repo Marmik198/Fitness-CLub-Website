@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/*------HEADER-------*/
+
+
+#header {
+    background-image: url(../image/boxing.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+
+.navbar-nav li a {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff !important;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    white-space: 250px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+nav .fa-bars {
+    color: white;
+    font-size: 26px;
+}
+
+
+
+/*------Welcome-------*/
+
+
+.welcome {
+    padding: 50px 100px;
+    margin-top: -140px;
+    background: #fff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+}
+
+.welcome h1 {
+    color: #333;
+}
+
+.home-btn {
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: #fff;
+    background: #013f7e;
+}
+
+
+.welcome .btn:focus {
+    box-shadow: none;
+}
+
+
+
+/*------About-------*/
+
+
+
+#about {
+    padding: 100px;
+}
+
+#about .col-md-6 {
+    padding: 20px 10px;
+}
+
+#about h3 {
+    margin: 40px auto;
+}
+
+#about img {
+    height: 360px;
+}
+
+
+
+/*------Services-------*/
+
+
+#service {
+    background: #ccc;
+    padding: 80px 0;
+}
+
+
+#service .col-md-4 {
+    padding: 20px;
+}
+
+
+#service h4 {
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+#service p {
+    padding: 5px;
+    text-align: justify;
+}
+
+#service img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/*------Features-------*/
+
+
+#feature {
+    padding: 80px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../image/fitt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+
+#feature col-md-6 {
+    padding: 20px;
+}
+
+
+#feature img {
+    margin-top: 30px;
+    height: 450px;
+}
+
+.feature-box {
+    height: 120px;
+    margin-top: 30px;
+}
+
+.feature-box .feature-left {
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+
+.feature-box .feature-left .fa {
+    padding-top: 13px;
+    font-size: 50px;
+}
+
+
+.feature-box .feature-right {
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+
+
+.feature-box .feature-right h4 {
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.feature-box .feature-right p {
+    padding-left: 15px;
+    text-align: left;
+}
+
+
+
+
+
+/*-----------Testimonials------------*/
+
+
+#test {
+    padding: 100px 0;
+}
+
+
+#test .col-md-4 {
+    padding: 10px 30px;
+}
+
+
+#test img {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+
+.review {
+    font-size: 16px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.review .fa-twitter,
+.review span {
+    color: #013f7e;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.mid {
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+
+
+/*------------Sunscriptions------------*/
+
+
+.subs {
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    margin-bottom: -120px;
+}
+
+.subs h3,
+.subs p {
+    color: #fff;
+}
+
+.subs .input-group {
+    background: #fff;
+    border-radius: 30px;
+    max-width: 500px;
+    margin: 20px auto 10px;
+    padding: 5px;
+}
+
+
+.subs .form-control {
+    background: transparent;
+    border: none;
+}
+
+.subs .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+}
+
+.subs .input-group-append {
+    background-image: linear-gradient(to right, #1c03bf, #5c8bef);
+    border-radius: 30px;
+}
+
+
+.subs .input-group-text {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.subs .btn:focus {
+    box-shadow: none;
+    background: transparent;
+}
+
+
+
+
+/*------------Footer--------------*/
+
+
+
+#footer {
+    padding: 100px;
+    margin-top: 80px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+
+
+#footer .footer-logo {
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+#footer h1 {
+    font-size: 15px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+#footer p {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+#footer .fa {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+
+hr {
+    margin-top: 10px;
+}
+
+#footer .fa-heart-o {
+    color: red;
+    font-size: 17px;
+    padding: 0;
+}
+
+#footer .copyright {
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#footer a {
+    font-size: 15px;
+    color: #013f7e;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#footer a:hover {
+    color: #e53232;
+    text-decoration: underline;
+    font-weight: bold;
+}
