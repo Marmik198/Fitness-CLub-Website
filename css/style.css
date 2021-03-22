@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 
@@ -14,7 +13,7 @@
     height: 80vh;
     background-position: center;
     background-size: cover;
-    text-transform: uppercase;
+    background-attachment: fixed;
 }
 
 
@@ -22,6 +21,7 @@
     display: flex;
     justify-content: flex-end;
     color: #fff !important;
+    text-transform: uppercase;
 }
 
 .navbar-brand {
@@ -319,7 +319,7 @@ nav .fa-bars {
 
 
 #footer .fa {
-    padding-right: 20px;
+    padding-right: 5px;
     font-size: 15px;
 }
 
@@ -352,4 +352,16 @@ hr {
     color: #e53232;
     text-decoration: underline;
     font-weight: bold;
+}
+
+
+
+
+/*------Responsive------*/
+
+
+@media screen and (max-width: 600px) {
+    #about img {
+        height: auto;
+    }
 }
